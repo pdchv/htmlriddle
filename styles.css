@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: center;
     position: relative;
     background-color: black;
 }
@@ -10,11 +9,11 @@ body {
 
 .text {
     color: lightgray;
-    width: 50vh;
     height: 50vh;
+    width: 50vh;
     font-family: Verdana, Tahoma, sans-serif;
     font-variant-caps: small-caps;
-    font-size: 4vh;
+    font-size: 4.5vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,4 +31,6 @@ body {
 
 a {
     color: steelblue;
+    font-size: 3.5vh;
+
 }
